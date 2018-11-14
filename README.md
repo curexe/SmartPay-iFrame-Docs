@@ -2,7 +2,7 @@
 
 # How It Works
 
-To install the SmartPay application on your website requires adding just one line of HTML: an iframe. (Need help with HTML?)
+To install the SmartPay application on your website requires adding just one line of HTML: an iframe. [Need help with HTML?](https://www.w3schools.com/tags/tag_iframe.asp)
 
 The iframe element itself can be customized using the HTML attributes of your choice. It's recommended that you set the border to 0, the width to 100% and the height to a fixed amount no less than 500 (to reduce scrolling).
 
