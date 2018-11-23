@@ -1,6 +1,12 @@
 <a href='https://smartpay.curexe.com'><img src="https://smartpay.curexe.com/resources/img/logo.png" width="200" ></a>
 
-# How It Works
+## Overview
+
+The SmartPay Checkout solution consists of an iFrame, an API and the SmartPay website. This documentation covers the installation and use of the iFrame, which captures consumer detail which can then be accessed by retailers through the API.
+
+<img src="diagram.png">
+
+# Installing the iFrame
 
 To install the SmartPay application on your website requires adding just one line of HTML: an iframe. [Need help with HTML?](https://www.w3schools.com/tags/tag_iframe.asp)
 
