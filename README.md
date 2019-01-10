@@ -15,7 +15,7 @@ The iframe element itself can be customized using the HTML attributes of your ch
 The syntax for the iframe src is as follows:
 
 ```
-https://staging-xmd84vwb.smartpay.curexe.com/iframe.php?parameter=value&meter=value (etc.)
+https://smartpay.curexe.com/iframe.php?parameter=value&meter=value (etc.)
 ```
 
 As you can see, all of the input parameters in the iframe code are "dynamic" -- in other words, your application will need to populate them with the appropriate publisher/retailer or consumer information. All parameter/value pairs must be separated with an ampersand (&). All values should be URL-encoded.
