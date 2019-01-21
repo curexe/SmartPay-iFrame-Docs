@@ -73,56 +73,68 @@ The following input parameters are available for use in the iframe:
 <tr>
 <td>firstName</td>
 <td>N</td>
-<td>Customer’s first name</td>
+<td>Customer's first name</td>
 <td>John</td>
 </tr>
 <tr>
 <td>lastName</td>
 <td>N</td>
-<td>Customer’s last name</td>
+<td>Customer's last name</td>
 <td>Smith</td>
 </tr>
 <tr>
 <td>address</td>
 <td>N</td>
-<td>Customer’s street address</td>
+<td>Customer's street address</td>
 <td>123 Main Street</td>
 </tr>
 <tr>
 <td>city</td>
 <td>N</td>
-<td>Customer’s city</td>
+<td>Customer's city</td>
 <td>New York</td>
 </tr>
 <tr>
 <td>region</td>
 <td>N</td>
-<td>Customer’s state, province or other region</td>
+<td>Customer's state, province or other region</td>
 <td>New York</td>
 </tr>
 <tr>
 <td>country</td>
 <td>N</td>
-<td>Customer’s country</td>
+<td>Customer's country</td>
 <td>US</td>
 </tr>
 <tr>
 <td>postalCode</td>
 <td>N</td>
-<td>Customer’s postal code</td>
+<td>Customer's postal code</td>
 <td>10001</td>
 </tr>
 <tr>
-<td>email</td>
+<td>email <sup>4</sup></td>
 <td>N</td>
-<td>Customer’s email address</td>
+<td>Customer's email address</td>
 <td>john@smith.com</td>
 </tr>
 <tr>
 <td>phone</td>
 <td>N</td>
-<td>Customer’s phone number</td>
+<td>Customer's phone number</td>
 <td>555-555-5555</td>
+</tr>
+<tr>
+<td>customConsumerID <sup>4</sup></td>
+<td>N</td>
+<td>Any alphanumeric ID you choose, up to a maximum of 32 characters</td>
+<td></td>
+</tr>
+<tr>
+<td>customOrderID <sup>4</sup></td>
+<td>N</td>
+<td>Any alphanumeric ID you choose, up to a maximum of 32 characters</td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -132,3 +144,5 @@ The following input parameters are available for use in the iframe:
 <sup>2</sup> If mandatory input parameters aren't provided, the iframe will display an error message and fail to submit transactions.
 
 <sup>3</sup> SingleAmt and recurAmt are individually non-mandatory, but one must be used. Also, if recurAmt is used, recurFreq and recurStart both become mandatory.
+
+<sup>4</sup> Email is the only unique field, and is therefore the only field used to determine whether two consumers are the same. CustomConsumerID and CustomOrderID are not enforced as unique fields; these fields are entirely at the retailers discretion to employ as they see fit.
