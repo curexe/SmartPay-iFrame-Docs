@@ -16,7 +16,7 @@ Configuration values are passed to the SmartPay app using thr <a href="https://e
 
 An example iframe for invoicing a consumer $50 CAD would be:
 ```
-<iframe src="https://smartpay.curexe.com/iframe.php?key=abc123&singleAmt=50&curr=CAD"&gt;&lt;/iframe&gt;
+<iframe src="https://smartpay.curexe.com/iframe.php?key=abc123&singleAmt=50&curr=CAD"></iframe>
 ```
 
 All parameter/value pairs must be separated with an ampersand (&). All values should be URL-encoded.
