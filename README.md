@@ -31,7 +31,7 @@ The following input parameters are available for use in the iframe:
 <table>
 <thead>
 <tr>
-<th>Parameter<sup>1</sup></th>
+<th>Parameter</th>
 <th>Mandatory<sup>2</sup></th>
 <th>Description</th>
 <th>Example</th>
@@ -142,8 +142,6 @@ The following input parameters are available for use in the iframe:
 </tr>
 </tbody>
 </table>
-
-<sup>1</sup> "Camelcase" has been used for visual clarity, but any case may be used when implemented.
 
 <sup>2</sup> If mandatory input parameters aren't provided, the iframe will display an error message and fail to submit transactions.
 
