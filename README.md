@@ -37,16 +37,16 @@ The following input parameters are available for use in the iframe:
 <tr>
 <td>key</td>
 <td>Y</td>
-<td>This is your unique, case-sensitive iframe key</td>
+<td>This is your unique, case-sensitive iframe public key</td>
 <td>abc123</td>
 </tr>
 <tr>
 <td>singleAmt</td>
-<td>N <sup>3</sup></td>
+<td>Y</td>
 <td>A single amount to be charged at time of purchase</td>
 <td>100.00</td>
 </tr>
-<tr>
+<!--<tr>
 <td>recurAmt</td>
 <td>N <sup>3</sup></td>
 <td>A recurring amount to be charged</td>
@@ -63,7 +63,7 @@ The following input parameters are available for use in the iframe:
 <td>N <sup>3</sup></td>
 <td>Date to start recurring billing</td>
 <td>2018-01-01 12:00:00</td>
-</tr>
+</tr>-->
 <tr>
 <td>curr</td>
 <td>Y</td>
@@ -86,25 +86,25 @@ The following input parameters are available for use in the iframe:
 <td>address</td>
 <td>N</td>
 <td>Customer's street address</td>
-<td>123 Main Street</td>
+<td>123 Street</td>
 </tr>
 <tr>
 <td>city</td>
 <td>N</td>
 <td>Customer's city</td>
-<td>New York</td>
+<td>Toronto</td>
 </tr>
 <tr>
 <td>region</td>
 <td>N</td>
 <td>Customer's state, province or other region</td>
-<td>New York</td>
+<td>Ontario</td>
 </tr>
 <tr>
 <td>country</td>
 <td>N</td>
 <td>Customer's country</td>
-<td>US</td>
+<td>CA</td>
 </tr>
 <tr>
 <td>postalCode</td>
@@ -125,13 +125,13 @@ The following input parameters are available for use in the iframe:
 <td>555-555-5555</td>
 </tr>
 <tr>
-<td>customConsumerID <sup>4</sup></td>
+<td>customConsumerID <sup>5</sup></td>
 <td>N</td>
 <td>Any alphanumeric ID you choose, up to a maximum of 32 characters</td>
 <td></td>
 </tr>
 <tr>
-<td>customOrderID <sup>4</sup></td>
+<td>customOrderID <sup>5</sup></td>
 <td>N</td>
 <td>Any alphanumeric ID you choose, up to a maximum of 32 characters</td>
 <td></td>
@@ -143,6 +143,8 @@ The following input parameters are available for use in the iframe:
 
 <sup>2</sup> If mandatory input parameters aren't provided, the iframe will display an error message and fail to submit transactions.
 
-<sup>3</sup> SingleAmt and recurAmt are individually non-mandatory, but one must be used. Also, if recurAmt is used, recurFreq and recurStart both become mandatory.
+<!--<sup>3</sup> SingleAmt and recurAmt are individually non-mandatory, but one must be used. Also, if recurAmt is used, recurFreq and recurStart both become mandatory.-->
 
-<sup>4</sup> Email is the only unique field, and is therefore the only field used to determine whether two consumers are the same. CustomConsumerID and CustomOrderID are not enforced as unique fields; these fields are entirely at the retailers discretion to employ as they see fit.
+<sup>4</sup> Email is a unique field.  This is used to determine whether two consumers are the same. 
+
+<sup>5</sup> These fields are entirely at the retailers discretion to employ as they see fit.  It is recommended they be used to track your own ids within smartpay to make it easier to match records.
