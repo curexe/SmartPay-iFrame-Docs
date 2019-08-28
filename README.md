@@ -17,7 +17,7 @@ All parameter/value pairs must be separated with an ampersand (&). All values sh
 ### An example iframe for invoicing a consumer $50 CAD would be:
 
 ```
-<iframe src="https://smartpay.curexe.com/iframe.php?key=abc123&singleAmt=50&curr=CAD"></iframe>
+<iframe src="https://smartpay.curexe.com/iframe.php?key=YOUR_IFRAME_PUBLIC_KEY&singleAmt=50&curr=CAD"></iframe>
 ```
 
 ### Styling the iframe
