@@ -27,8 +27,8 @@ The following input parameters are available for use in the iframe:
 <table>
 <thead>
 <tr>
-<th>Parameter <sup>1</sup></th>
-<th>Mandatory <sup>2</sup></th>
+<th>Parameter<sup>1</sup></th>
+<th>Mandatory<sup>2</sup></th>
 <th>Description</th>
 <th>Example</th>
 </tr>
@@ -113,7 +113,7 @@ The following input parameters are available for use in the iframe:
 <td>10001</td>
 </tr>
 <tr>
-<td>email <sup>4</sup></td>
+<td>email<sup>4</sup></td>
 <td>N</td>
 <td>Customer's email address</td>
 <td>john@smith.com</td>
@@ -125,13 +125,13 @@ The following input parameters are available for use in the iframe:
 <td>555-555-5555</td>
 </tr>
 <tr>
-<td>customConsumerID <sup>5</sup></td>
+<td>customConsumerID<sup>5</sup></td>
 <td>N</td>
 <td>Any alphanumeric ID you choose, up to a maximum of 32 characters</td>
 <td></td>
 </tr>
 <tr>
-<td>customOrderID <sup>5</sup></td>
+<td>customOrderID<sup>5</sup></td>
 <td>N</td>
 <td>Any alphanumeric ID you choose, up to a maximum of 32 characters</td>
 <td></td>
