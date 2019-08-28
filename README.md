@@ -6,7 +6,7 @@ The SmartPay Checkout solution consists of an iFrame, an API and the SmartPay we
 
 <img src="diagram.png">
 
-# Installing the iFrame
+# Installation
 
 Installing the SmartPay app on your website requires using an iframe. [Need help with HTML?](https://www.w3schools.com/tags/tag_iframe.asp)
 
