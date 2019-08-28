@@ -8,17 +8,19 @@ The SmartPay Checkout solution consists of an iFrame, an API and the SmartPay we
 
 # Installing the iFrame
 
-To install the SmartPay application on your website requires adding just one line of HTML: an iframe. [Need help with HTML?](https://www.w3schools.com/tags/tag_iframe.asp)
+Installing the SmartPay app on your website requires using an iframe. [Need help with HTML?](https://www.w3schools.com/tags/tag_iframe.asp)
 
-The iframe element itself can be customized using the HTML attributes of your choice. It's recommended that you set the border to 0, the width to 100% and the height to a fixed amount no less than 500 (to reduce scrolling).
+Styling the iframe: we recommend setting the border to 0, width to 100% and height to minimum of 500px.
 
-The syntax for the iframe src is as follows:
+Configuration values are passed to the SmartPay app using thr <a href="https://en.wikipedia.org/wiki/Query_string">query string</a> on the iframe url.
+
+Here is an example of a url used on the iframe:
 
 ```
-https://smartpay.curexe.com/iframe.php?parameter=value&meter=value (etc.)
+https://smartpay.curexe.com/iframe.php?key=abc123&singleAmt=50&curr=CAD (etc.)
 ```
 
-As you can see, all of the input parameters in the iframe code are "dynamic" -- in other words, your application will need to populate them with the appropriate publisher/retailer or consumer information. All parameter/value pairs must be separated with an ampersand (&). All values should be URL-encoded.
+All parameter/value pairs must be separated with an ampersand (&). All values should be URL-encoded.
 
 # Input Parameters
 
