@@ -67,7 +67,7 @@ The following input parameters are available for use in the iframe:
 <tr>
 <td>curr</td>
 <td>Y</td>
-<td>Destination currency of transaction</td>
+<td>Destination currency of transaction (<a href="https://en.wikipedia.org/wiki/ISO_4217">ISO 4217</a>)</td>
 <td>CAD</td>
 </tr>
 <tr>
@@ -103,20 +103,20 @@ The following input parameters are available for use in the iframe:
 <tr>
 <td>country</td>
 <td>N</td>
-<td>Customer's country</td>
+<td>Customer's country (<a href="https://en.wikipedia.org/wiki/ISO_4217">ISO 3166-1 alpha-2</a>)</td>
 <td>CA</td>
 </tr>
 <tr>
 <td>postalCode</td>
 <td>N</td>
 <td>Customer's postal code</td>
-<td>10001</td>
+<td>A1A1A1</td>
 </tr>
 <tr>
 <td>email<sup>4</sup></td>
 <td>N</td>
 <td>Customer's email address</td>
-<td>john@smith.com</td>
+<td>john.smith@email.com</td>
 </tr>
 <tr>
 <td>phone</td>
