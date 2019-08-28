@@ -14,10 +14,9 @@ Styling the iframe: we recommend setting the border to 0, width to 100% and heig
 
 Configuration values are passed to the SmartPay app using thr <a href="https://en.wikipedia.org/wiki/Query_string">query string</a> on the iframe url.
 
-Here is an example of a url used on the iframe:
-
+An example iframe for invoicing a consumer $50 CAD would be:
 ```
-https://smartpay.curexe.com/iframe.php?key=abc123&singleAmt=50&curr=CAD (etc.)
+&lt;iframe src="https://smartpay.curexe.com/iframe.php?key=abc123&singleAmt=50&curr=CAD"&gt;&lt;/iframe&gt;
 ```
 
 All parameter/value pairs must be separated with an ampersand (&). All values should be URL-encoded.
